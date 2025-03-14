@@ -25,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm ZhiWei Li, you can call me Aragon as well. I'm studying in [School of Data Science](https://sds.fudan.edu.cn/) at [Fudan University](https://www.fudan.edu.cn/) for my M.Sc, under my supervisor [Prof. Weizhong Zhang](https://weizhonz.github.io/index.html). Before that, I got my B.Sc. from [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/) ([Statistics](https://ssm.sufe.edu.cn/)) at Summer 2023. 
+Hi, I'm ZhiWei Li, you can call me Aragon as well. I'm studying in [School of Data Science](https://sds.fudan.edu.cn/) at [Fudan University](https://www.fudan.edu.cn/) for my M.Sc, under my supervisor Prof. [Weizhong Zhang](https://weizhonz.github.io/index.html). Before that, I got my B.Sc. from [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/) ([Statistics](https://ssm.sufe.edu.cn/)) at Summer 2023. 
 
 I'm currently working on Model Compression & Acceleration. I am interested in research areas about Large Language Model and Generative Model.
