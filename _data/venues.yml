@@ -1,4 +1,12 @@
 
 "NeurIPS":
   url: https://neurips.cc/
-XXX
+  color: "#00369f"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#9f008f"
+
+"ICML":
+  url: https://icml.cc/
+  color: "#9f1a00"
