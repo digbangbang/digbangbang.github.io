@@ -24,10 +24,10 @@
   },
   "education": [
     {
-      "institution": "Fudan University, Shanghai, China",
+      "institution": "Fudan University",
       "location": "Shanghai, China",
       "url": "https://www.fudan.edu.cn/",
-      "area": "statistics",
+      "area": "Statistics",
       "studyType": "Master",
       "startDate": "2023-09-01",
       "endDate": "2025-07-01",
@@ -35,15 +35,28 @@
       "courses": ["Model Compression & Acceleration"]
     },
     {
-      "institution": "Shanghai University of Finance and Economics, Shanghai, China",
+      "institution": "Shanghai University of Finance and Economics",
       "location": "Shanghai, China",
       "url": "https://www.sufe.edu.cn/",
-      "area": "statistics",
+      "area": "Statistics",
       "studyType": "Bachelor",
       "startDate": "2019-09-01",
       "endDate": "2023-07-01",
       "score": "",
       "courses": ["Machine Learning"]
+    }
+  ],
+  "internship": [
+    {
+      "institution": "Meituan",
+      "location": "Beijing, China",
+      "url": "",
+      "area": "MLLM",
+      "studyType": "Research intern",
+      "startDate": "2024-06-20",
+      "endDate": "2024-10-01",
+      "score": "",
+      "courses": [""]
     }
   ]
 }
