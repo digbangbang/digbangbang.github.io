@@ -50,13 +50,10 @@
     {
       "institution": "Meituan",
       "location": "Beijing, China",
-      "url": "",
-      "area": "MLLM",
+      "area": "Multimodal Large Language Model",
       "studyType": "Research intern",
       "startDate": "2024-06",
-      "endDate": "2024-10",
-      "score": "",
-      "courses": [""]
+      "endDate": "2024-10"
     }
   ]
 }
