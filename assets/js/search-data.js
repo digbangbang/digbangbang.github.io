@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is Zhiwei Li&#39; CV.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
