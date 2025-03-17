@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I'm ZhiWei Li (Aragon), a M.Sc candidate in [School of Data Science](https://sds.fudan.edu.cn/) at [Fudan University](https://www.fudan.edu.cn/), where I conduct research under the supervision of Prof. [Weizhong Zhang](https://weizhonz.github.io/index.html). Before that, I earned my B.Sc. from [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/) ([Statistics](https://ssm.sufe.edu.cn/)) in Summer 2023. 
+Hello, I'm ZhiWei Li (李志伟), a M.Sc candidate in [School of Data Science](https://sds.fudan.edu.cn/) at [Fudan University](https://www.fudan.edu.cn/), where I conduct research under the supervision of Prof. [Weizhong Zhang](https://weizhonz.github.io/index.html). Before that, I earned my B.Sc. from [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/) ([Statistics](https://ssm.sufe.edu.cn/)) in Summer 2023. 
 
 My current research focuses on **Model Compression & Acceleration**. I am quite interested in research areas about: 
 
