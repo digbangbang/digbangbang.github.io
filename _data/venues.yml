@@ -1,12 +1,15 @@
-
 "NeurIPS":
   url: https://neurips.cc/
   color: "#00369f"
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#9f008f"
+  color: "#dfe62c"
 
 "ICML":
   url: https://icml.cc/
-  color: "#9f1a00"
+  color: "#47d91e"
+
+"ArXiv":
+  url: https://arxiv.org/
+  color: "#d61e1e"
