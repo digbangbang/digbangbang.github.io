@@ -3,8 +3,8 @@
     "name": "Zhiwei Li",
     "label": "",
     "image": "",
-    "email": "zhiwei466@gmail.com",
-    "phone": "(86) 19121702023",
+    "email": "zhiwei466@gmail.com / zli404@connect.hkust-gz.edu.cn",
+    "phone": "(086) 19121702023",
     "url": "",
     "summary": "",
     "location": {
@@ -24,10 +24,21 @@
   },
   "education": [
     {
+      "institution": "Hong Kong University of Science and Technology (GuangZhou)",
+      "location": "Guangzhou, China",
+      "url": "https://www.hkust-gz.edu.cn/",
+      "area": "Information Hub",
+      "studyType": "PhD",
+      "startDate": "2025-08-01",
+      "endDate": "Present",
+      "score": "",
+      "courses": ["Large Language Model"]
+    },
+    {
       "institution": "Fudan University",
       "location": "Shanghai, China",
       "url": "https://www.fudan.edu.cn/",
-      "area": "Statistics",
+      "area": "Data Science",
       "studyType": "Master",
       "startDate": "2023-09-01",
       "endDate": "2025-07-01",
@@ -38,7 +49,7 @@
       "institution": "Shanghai University of Finance and Economics",
       "location": "Shanghai, China",
       "url": "https://www.sufe.edu.cn/",
-      "area": "Statistics",
+      "area": "Statistics and Data Science",
       "studyType": "Bachelor",
       "startDate": "2019-09-01",
       "endDate": "2023-07-01",
