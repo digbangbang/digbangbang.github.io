@@ -48,6 +48,9 @@ ninja.data = [{
     },{id: "news-our-paper-lpt-fl-is-accepted-by-neurips-2024",
           title: 'Our paper LPT-FL is accepted by NeurIPS 2024!',
           description: "",
+          section: "News",},{id: "news-new-journey-begins-at-hkust-gz",
+          title: 'New journey begins at HKUST(GZ)!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
