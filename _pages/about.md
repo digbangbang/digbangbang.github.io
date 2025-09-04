@@ -29,7 +29,7 @@ Hello, I'm Zhiwei Li (李志伟). I'm currently pursuing my Ph.D at the [Hong Ko
 
 My current research is centered on **Reasoning of Large Language Models**, especially in multimodal LLMs, reinforcement learning, and multi-turn agents. I previously conducted research on model compression and acceleration, including LLM pruning, low-precision training, and diffusion model accelerated sampling.
 
-For a complete overview of my research and experience, please refer to my resume: [Zhiwei Li's CV](https://digbangbang.github.io/assets/pdf/CV.pdf).
+For a complete overview of my research and experience, please refer to my resume: [CV](https://digbangbang.github.io/assets/pdf/CV.pdf).
 
 <!-- My current research focuses on **Model Compression & Acceleration**. I am quite interested in research areas about: 
 
