@@ -16,7 +16,7 @@
 @article{xxxxx,
   abbr={NeurIPS},
   title={Computation and Memory-Efficient Model Compression with Gradient Reweighting},
-  author={Zhiwei Li and Yuesen Liao and Binrui Wu and Yuquan Zhou and Xupeng Shi and Dongsheng Jiang and Yin Li and Weizhong Zhang},
+  author={Zhiwei Li* and Yuesen Liao* and Binrui Wu and Yuquan Zhou and Xupeng Shi and Dongsheng Jiang and Yin Li and Weizhong Zhang},
   journal={Advances in Neural Information Processing Systems},
   volume={38},
   pages={xxxxx--xxxxx},
@@ -25,6 +25,7 @@
   code={},
   selected={true},
   preview={reweight.png},
+  annotation={* denotes equal contribution.},
   abstract={Pruning is a commonly employed technique for deep neural networks (DNNs) aiming at compressing the model size to reduce computational and memory costs during inference. In contrast to conventional neural networks, large language models (LLMs) pose a unique challenge regarding pruning efficiency due to their substantial computational and memory demands. Existing methods, particularly optimization-based ones, often require considerable computational resources in gradient estimation because they cannot effectively leverage weight sparsity of the intermediate pruned network to lower compuation and memory costs in each iteration. The fundamental challenge lies in the need to frequently instantiate intermediate pruned sub-models to achieve these savings, a task that becomes infeasible even for moderately sized neural networks. To this end, this paper proposes a novel pruning method for DNNs that is both computationally and memory-efficient. Our key idea is to develop an effective reweighting mechanism that enables us to estimate the gradient of the pruned network in current iteration via reweigting the gradient estimated on an outdated intermediate sub-model instantiated at an earlier stage, thereby significantly reducing model instantiation frequency. We further develop a series of techniques, e.g., clipping and preconditioning matrix, to reduce the variance of gradient estimation and stabilize the optimization process. We conducted extensive experimental validation across various domains. Our approach achieves 50% sparsity and a 1.58x speedup in forward pass on Llama2-7B model with only 6 GB of memory usage, outperforming state-of-the-art methods with respect to both perplexity and zero-shot performance. As a by-product, our method is highly suited for distributed sparse training and can achieve a 2x speedup over the dense distributed baselines.}
 }
 
@@ -62,7 +63,7 @@
 @article{li2024low,
   abbr={NeurIPS},
   title={Low Precision Local Training is Enough for Federated Learning},
-  author={Zhiwei Li and Yiqiu Li and Binbin Lin and Zhongming Jin and Weizhong Zhang},
+  author={Zhiwei Li* and Yiqiu Li* and Binbin Lin and Zhongming Jin and Weizhong Zhang},
   journal={Advances in Neural Information Processing Systems},
   volume={37},
   pages={90160--90197},
@@ -71,5 +72,6 @@
   code={https://github.com/digbangbang/LPT-FL},
   selected={true},
   preview={lpt-fl.png},
+  annotation={* denotes equal contribution.},
   abstract={Federated Learning (FL) is a prevalent machine learning paradigm designed to address challenges posed by heterogeneous client data while preserving data privacy. Unlike distributed training, it typically orchestrates resource-constrained edge devices to communicate via a low-bandwidth communication network with a central server. This urges the development of more computation and communication efficient training algorithms. In this paper, we propose an efficient FL paradigm, where the local models in the clients are trained with low-precision operations and communicated with the server in low precision format, while only the model aggregation in the server is performed with high-precision computation. We surprisingly find that high precision models can be recovered from the low precision local models with proper aggregation in the server. In this way, both the workload in the client-side and the communication cost can be significantly reduced. We theoretically show that our proposed paradigm can converge to the optimal solution as the training goes on, which demonstrates that low precision local training is enough for FL. Our paradigm can be integrated with existing FL algorithms flexibly. Experiments across extensive benchmarks are conducted to showcase the effectiveness of our proposed method. Notably, the models trained by our method with the precision as low as 8 bits are comparable to those from the full precision training. As a by-product, we show that low precision local training can relieve the over-fitting issue in local training, which under heterogeneous client data can cause the client models drift further away from each other and lead to the failure in model aggregation. Code is released at https://github.com/digbangbang/LPT-FL.}
 }
