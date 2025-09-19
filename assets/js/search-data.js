@@ -51,6 +51,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-journey-begins-at-hkust-gz",
           title: 'New journey begins at HKUST(GZ)!',
           description: "",
+          section: "News",},{id: "news-three-papers-are-accepted-by-neurips-2025",
+          title: 'Three papers are accepted by NeurIPS 2025!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
