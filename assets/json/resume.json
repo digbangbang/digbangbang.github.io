@@ -27,7 +27,7 @@
       "institution": "Hong Kong University of Science and Technology (GuangZhou)",
       "location": "Guangzhou, China",
       "url": "https://www.hkust-gz.edu.cn/",
-      "area": "Information Hub",
+      "area": "Data Science and Analytics Thrust",
       "studyType": "Ph.D",
       "startDate": "2025-08-01",
       "endDate": "Present",
@@ -61,10 +61,11 @@
     {
       "institution": "Meituan",
       "location": "Beijing, China",
-      "area": "Multimodal Large Language Model",
+      "area": "Visual Intelligence Department",
       "studyType": "Research intern",
       "startDate": "2024-06",
-      "endDate": "2024-10"
+      "endDate": "2024-10",
+      "courses": ["Multimodal Large Language Models"]
     }
   ]
 }
