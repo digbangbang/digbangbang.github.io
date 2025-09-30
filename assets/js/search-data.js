@@ -45,8 +45,8 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-our-paper-lpt-fl-is-accepted-by-neurips-2024",
-          title: 'Our paper LPT-FL is accepted by NeurIPS 2024!',
+    },{id: "news-one-paper-is-accepted-by-neurips-2024",
+          title: 'One paper is accepted by NeurIPS 2024!',
           description: "",
           section: "News",},{id: "news-new-journey-begins-at-hkust-gz",
           title: 'New journey begins at HKUST(GZ)!',
