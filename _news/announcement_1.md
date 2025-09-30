@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [LPT-FL](https://openreview.net/pdf?id=vvpewjtnvm) is accepted by NeurIPS 2024!
+One paper is accepted by NeurIPS 2024!
