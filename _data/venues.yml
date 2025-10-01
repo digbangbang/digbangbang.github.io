@@ -1,14 +1,14 @@
 "ArXiv":
   url: https://arxiv.org/
-  color: "#CA4E33"
+  color: "#4C4033"
 
 "NeurIPS":
   url: https://neurips.cc/
-  color: "#7E8FBB"
+  color: "#7d1f21"
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#D2A161"
+  color: "#CC7E5B"
 
 "ICML":
   url: https://icml.cc/
@@ -16,12 +16,12 @@
 
 "EMNLP":
   url: https://aclanthology.org/venues/emnlp/
-  color: "#94D3D1"
+  color: "#5b74b5"
 
 "TPAMI":
   url: https://www.computer.org/csdl/journal/tp
-  color: "#CC7E5B"
+  color: "#B3AC85"
 
 "COLM":
   url: https://colmweb.org/index.html
-  color: "#7C292A"
+  color: "#5A1F20"
