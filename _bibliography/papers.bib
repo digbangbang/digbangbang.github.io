@@ -1,23 +1,22 @@
-@misc{li202512surveyreasoning,
+@article{li202512surveyreasoning,
   abbr={ArXiv},
-  title={From System 1 to System 2: A Survey of Reasoning Large Language Models}, 
+  title={From System 1 to System 2: A Survey of Reasoning Large Language Models},
   author={Zhong-Zhi Li and Duzhen Zhang and Ming-Liang Zhang and Jiaxin Zhang and Zengyan Liu and Yuxuan Yao and Haotian Xu and Junhao Zheng and Pei-Jie Wang and Xiuyi Chen and Yingying Zhang and Fei Yin and Jiahua Dong and Zhiwei Li and Bao-Long Bi and Ling-Rui Mei and Junfeng Fang and Zhijiang Guo and Le Song and Cheng-Lin Liu},
+  journal={ArXiv},
   year={2025},
-  eprint={2502.17419},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI},
-  html={https://arxiv.org/abs/2502.17419}, 
+  html={https://arxiv.org/abs/2502.17419},
   code={https://github.com/zzli2022/Awesome-System2-Reasoning-LLM},
   selected={true},
   preview={timeline_update2.png},
   abstract={Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 thinking. Recently, reasoning LLMs like OpenAI's o1/o3 and DeepSeek's R1 have demonstrated expert-level performance in fields such as mathematics and coding, closely mimicking the deliberate reasoning of System 2 and showcasing human-like cognitive abilities. This survey begins with a brief overview of the progress in foundational LLMs and the early development of System 2 technologies, exploring how their combination has paved the way for reasoning LLMs. Next, we discuss how to construct reasoning LLMs, analyzing their features, the core methods enabling advanced reasoning, and the evolution of various reasoning LLMs. Additionally, we provide an overview of reasoning benchmarks, offering an in-depth comparison of the performance of representative reasoning LLMs. Finally, we explore promising directions for advancing reasoning LLMs and maintain a real-time GitHub Repository to track the latest developments. We hope this survey will serve as a valuable resource to inspire innovation and drive progress in this rapidly evolving field.}
 }
 
+
 @article{xxxxx,
   abbr={NeurIPS},
   title={Computation and Memory-Efficient Model Compression with Gradient Reweighting},
   author={Zhiwei Li* and Yuesen Liao* and Binrui Wu and Yuquan Zhou and Xupeng Shi and Dongsheng Jiang and Yin Li and Weizhong Zhang},
-  journal={Advances in Neural Information Processing Systems},
+  journal={NeurIPS},
   volume={38},
   pages={xxxxx--xxxxx},
   year={2025},
@@ -31,7 +30,7 @@
   abbr={NeurIPS},
   title={Compress Large Language Models via Collaboration Between Learning and Matrix Approximation},
   author={Yuesen Liao* and Zhiwei Li* and Binrui Wu and Zihao Cheng and Su Zhao and Shuai Chen and Weizhong Zhang},
-  journal={Advances in Neural Information Processing Systems},
+  journal={NeurIPS},
   volume={38},
   pages={xxxxx--xxxxx},
   year={2025},
@@ -45,7 +44,7 @@
   abbr={NeurIPS},
   title={Efficient Representativeness-Aware Coreset Selection},
   author={Zihao Cheng and Binrui Wu and Zhiwei Li and Yuesen Liao and Su Zhao and Shuai Chen and Yuan Gao and Weizhong Zhang},
-  journal={Advances in Neural Information Processing Systems},
+  journal={NeurIPS},
   volume={38},
   pages={xxxxx--xxxxx},
   year={2025},
@@ -54,11 +53,23 @@
   abstract={Dynamic coreset selection is a promising approach for improving the training efficiency of deep neural networks by periodically selecting a small subset of the most representative or informative samples, thereby avoiding the need to train on the entire dataset. However, it remains inherently challenging due not only to the complex interdependencies among samples and the evolving nature of model training, but also to a critical coreset representativeness degradation issue identified and explored in-depth in this paper, that is, the representativeness or information content of the coreset degrades over time as training progresses. Therefore, we argue that, in addition to designing accurate selection rules, it is equally important to endow the algorithms with the ability to assess the quality of the current coreset. Such awareness enables timely re-selection, mitigating the risk of overfitting to stale subsets—a limitation often overlooked by existing methods. To this end, this paper proposes an Efficient Representativeness-Aware Coreset Selection method for deep neural networks, a lightweight framework that enables dynamic tracking and maintenance of coreset quality during training. While the ideal criterion—gradient discrepancy between the coreset and the full dataset—is computationally prohibitive, we introduce a scalable surrogate based on the signal-to-noise ratio (SNR) of gradients within the coreset, which is the main technical contribution of this paper and is also supported by our theoretical analysis. Intuitively, a decline in SNR indicates overfitting to the subset and declining representativeness. Leveraging this observation, our method triggers coreset updates without requiring costly Hessian or full-batch gradient computations, maintaining minimal computational overhead. Experiments on multiple datasets confirm the effectiveness of our approach. Notably, compared with existing gradient-based dynamic coreset selection baselines, our method achieves up to a 5.4% improvement in test accuracy across multiple datasets.}
 }
 
+@article{xxxxx,
+  abbr={EMNLP},
+  title={FaStFact: Faster, Stronger Long-Form Factuality Evaluations in LLMs},
+  author={Yingjia Wan, Haochen Tan, Xiao Zhu, Xinyu Zhou, Zhiwei Li, Qingsong Lv, Changxuan Sun, Jiaqi Zeng, Yi Xu, Jianqiao Lu, Yinhong Liu, Zhijiang Guo},
+  journal={EMNLP Findings},
+  year={2025},
+  code={https://github.com/Yingjia-Wan/FastFact},
+  selected={false},
+  preview={fastfact.png},
+  abstract={Evaluating the factuality of long-form generations from Large Language Models (LLMs) remains challenging due to accuracy issues and costly human assessment. Prior evaluation pipelines attempt this by decomposing text into claims, searching for evidence, and verifying claims, but suffer from critical drawbacks: (1) inefficiency due to complex pipeline components unsuitable for long LLM outputs, and (2) ineffectiveness stemming from inaccurate claim sets and insufficient evidence collection of one-line SERP snippets. To address these limitations, we adapt the existing decompose-then-verify evaluation framework and propose FaStFact, a fast and strong evaluation pipeline that achieves the highest alignment with human evaluation and efficiency among existing baselines. FaStFact first employs chunk-level claim extraction integrated with confidence-based pre-verification, significantly reducing the cost of web searching and inference calling while ensuring reliability. For searching and verification, it gathers document-level evidence from crawled website pages for retrieval during verification, addressing the evidence insufficiency problem in previous pipelines. Extensive experiments based on an aggregated and manually annotated benchmark demonstrate the reliability of FaStFact in both efficiently and effectively evaluating the factuality of long-form LLM generations. We submit the paper with code and benchmark, and will make them publicly available to facilitate research.}
+}
+
 @article{li2024low,
   abbr={NeurIPS},
   title={Low Precision Local Training is Enough for Federated Learning},
   author={Zhiwei Li* and Yiqiu Li* and Binbin Lin and Zhongming Jin and Weizhong Zhang},
-  journal={Advances in Neural Information Processing Systems},
+  journal={NeurIPS},
   volume={37},
   pages={90160--90197},
   year={2024},
